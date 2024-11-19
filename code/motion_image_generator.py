@@ -9,7 +9,6 @@ def create_video(load):
     token = os.environ.get("NVCF_RUN_KEY")
 
     headers = {
-        #"Authorization": "Bearer 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",
         "Authorization": f"Bearer {token}",
         "Accept": "application/json",
     }

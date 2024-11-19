@@ -76,9 +76,9 @@ demo = gr.Interface(
     inputs=gr.Audio(type="numpy"),  # Accept audio input
     outputs=[
         gr.Textbox(label="Transcription"),  # Output transcription text
-        gr.Video(label="Generated Video"),  # Output dynamic video
+        gr.Video(label="Generated Image"),  # Output dynamic video
     ],
-    title="Speech-to-DynamicImage Converter",
+    title="Speech-to-Dynamic-Image Converter",
     description=(
         "This application converts audio input (speech or sounds) into "
         "a descriptive text transcription it then generates a static image-based "
