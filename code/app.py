@@ -24,7 +24,8 @@ pipe = pipeline(
 )
 
 # Directory to save the generated output files
-OUTPUT_DIR = "./data/images/"
+#OUTPUT_DIR = "../data/"
+OUTPUT_DIR = os.path.abspath("../data/")
 
 # Ensure the output directory exists
 os.makedirs(OUTPUT_DIR, exist_ok=True)
