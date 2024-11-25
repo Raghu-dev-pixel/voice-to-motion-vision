@@ -73,7 +73,11 @@ The project and the application were tested under the specifications mentioned b
 * Storage requirements: 40GB
 
 ## What's Unique
-The Speech-to-Dynamic Image Converter application builds upon the basis of the previous Speech-to-Image Converter by introducing innovative features and addressing key feedback points to create a differentiated and impactful solution. Unlike traditional solutions focused on static image generation, this project seamlessly integrates speech-to-text transcription, static image creation, and dynamic video generation into a unified pipeline. The addition of motion effects to images makes it a unique tool for immersive storytelling and advanced content creation. Some of the versatile applications where this application can be used are as follows:
+The Speech-to-Dynamic Image Converter application builds upon the basis of the previous Speech-to-Image Converter by introducing innovative features and addressing key feedback points to create a differentiated and impactful solution. Unlike traditional solutions focused on static image generation, this project seamlessly integrates speech-to-text transcription, static image creation, and dynamic video generation into a unified pipeline. The addition of motion effects to images makes it a unique tool for immersive storytelling and advanced content creation. 
+
+Speech-to-dynamic-image converters focus on transforming spoken language into creative, AI-generated visual content, leveraging generative models for animations and media production. In contrast, other techniques such as Google Assistant display images from websites, it does not generate images or create dynamic visual content.
+
+Some of the versatile applications where this project can be used are as follows:
 1) **Academics**: It is possible to create motion-enhanced animations to explain complex concepts interactively. For instance, “The life cycle of a butterfly” can generate a dynamic visualization of the process.
 2) **Healthcare**: we can produce dynamic anatomical models based on medical descriptions for better understanding and training.
 3) **Entertainment**: The Speech-to-Dynamic Image Converter can also be used in the entertainment industry by enabling creators to generate motion-enhanced visuals from narrated descriptions, streamlining content production for movies.
@@ -93,6 +97,10 @@ Since we are using NVIDIA's API for stable diffusion to convert text to image, i
 5) Select the "Generate Personal Key" from the menu and then again click on the "Generate Personal key" at the middle of the page.
 6) Once this is done copy the personal key that is generated and save it in your notepad after which we can sign out from the account.
 
-Note:- The above-mentioned steps for API creation are not needed for the moment as I have created my key from my account explicitly created for this demo purpose, however, if the application does not work right away as described earlier this is one option that could be checked.
+The demonstration of the application can be found on [youtube](https://youtu.be/cUdPMDNU2EI).
 
-The steps to generate the Nvidia API key is shown starting from slide 12 in the presentation attached [Download the presentation](./data/HackAI_ppt.pptx).
+Note:- 
+1) The above-mentioned steps for API creation are not needed for the moment as I have created my key from my account explicitly created for this demo purpose, however, if the application does not work right away as described earlier this is one option that could be checked.
+2) The project has undergone various name iterations, including "SpeechToDynamic," "Speech to Video," and "Voice2DynamicVision," all reflecting the core goal of transforming speech into motion-based visual outputs.
+
+The steps to generate the Nvidia API key are shown starting from slide 12 to 18 in the presentation attached [Download the presentation](./data/HackAI_ppt.pptx).
